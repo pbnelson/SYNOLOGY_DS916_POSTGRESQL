@@ -168,8 +168,10 @@ Note that this requires passwordless SSH login to the NAS server. If you don't h
 
 ````bash
 # open a tunnel and connect sample command to connect remotely
-~/.ssh$ port=55443 # pick a random port
-~/.ssh$ ssh -f -L ${port}:DS16:5432 pbnelson@DS16 sleep 1 && PGPASSWORD="SECRET" psql --host=127.0.0.1 --port=${port} --user=pbnelson --dbname=pbndb
+~$ port=55443 # pick a random port
+~$ ssh -f -L ${port}:DS16:5432 pbnelson@DS16 sleep 1 && \
+PGPASSWORD="SECRET" psql --host=127.0.0.1 --port=${port} --user=pbnelson --dbname=pbndb
+
 
 psql (14.4, server 11.11)
 Type "help" for help.
@@ -179,6 +181,6 @@ pbndb=> \dt
 Did not find any relations.
 pbndb=> -- quit
 pbndb=> \q
-~/.ssh$ 
+~$ 
 
 ````
