@@ -39,14 +39,12 @@ You should be able to use these commands to see the current Synology database. T
 
 ````bash
 ~$ ssh DS16
-````
 
 Synology strongly advises you not to run commands as the root user, who has
 the highest privileges on the system. Doing so may cause major damages
 to the system. Please note that if you choose to proceed, all consequences are
 at your own risk.
 
-````bash
 pbnelson@DS16:~$ sudo psql -U postgres
 Password: SECRET
 psql (11.11)
