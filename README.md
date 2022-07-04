@@ -1,4 +1,4 @@
-# Using Synology DS916's Internal Postgres Server
+# Using Synology DS916+'s Internal Postgres Server
 
 Using the internal Postgresql v11.11 server on a Synology DS916+ NAS.
 
