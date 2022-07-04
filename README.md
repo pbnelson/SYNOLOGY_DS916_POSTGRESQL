@@ -22,12 +22,14 @@ Having been warned, here are instructions for getting access to the internal Pos
 
 ### Names in use
 
-| name     | represents                         | 
-| ----     | ----------                         |
-| DS16     | hostname of NAS server             |
-| pbnelson | username on NAS server             | 
-| `SECRET` | password for above                 |
-| pbndb    | name of new database being created | 
+Throughout this example I am using the following system/usernames. Change the commands as appropriate for your environment. Note that this is relying on creating the same postgresql username/password as the Synology NAS username/password. If this is a security concern you will have to make adjustments accordingly.
+
+| name       | represents                         | 
+| ----       | ----------                         |
+| `DS16`     | hostname of NAS server             |
+| `pbnelson` | username on NAS server             | 
+| `SECRET`   | password for above                 |
+| `pbndb`    | name of new database being created | 
 
 
 
