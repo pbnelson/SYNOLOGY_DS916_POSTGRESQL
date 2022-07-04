@@ -165,7 +165,7 @@ On Linux or Windows:
 #### Once you have the `psql` client installed
 
 
-Note that this requires passwordless SSH login to the NAS server. If you don't have that working, google how to use RSA keys `~/.ssh/id_rsa.pub` and `~/.ssh/authorized_keys` to enable that.
+Note that this requires passwordless SSH login to the NAS server. If you don't have that working, google how to use RSA keys `~/.ssh/id_rsa.pub` and `~/.ssh/authorized_keys` to enable it.
 
 ````bash
 # open a tunnel and connect sample command to connect remotely
