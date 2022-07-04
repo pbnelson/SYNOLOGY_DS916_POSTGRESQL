@@ -38,7 +38,7 @@ Throughout this example I am using the following system/usernames. Change the co
 You should be able to use these commands to see the current Synology database. This is your live system, so be careful not to mess up any data. You have been warned.
 
 ````bash
-08:19 m1max ~/repos/synology_ds916_postgresql (master)$ ssh DS16 
+~$ ssh DS16
 
 Synology strongly advises you not to run commands as the root user, who has
 the highest privileges on the system. Doing so may cause major damages
