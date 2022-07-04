@@ -75,7 +75,7 @@ At this point, being connected to the DS916+'s Postgresql server, we will create
 postgres=# -- create a new user (username and password same as shell login, in this case user="pbnelson")
 postgres=# create user pbnelson password 'SECRET';
 CREATE ROLE
-postgres=# -- create new database with name "pbn", takes a few seconds
+postgres=# -- create new database with name "pbndb", takes a few seconds
 postgres=# create database pbndb with owner=pbnelson; 
 CREATE DATABASE
 postgres=# -- connect to new database
