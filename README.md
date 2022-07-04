@@ -69,7 +69,7 @@ postgres=#
 
 ````
 
-At this point, being connected to the DS916's Postgresql server, we will create a new user and database. Be sure to substitute your own username, dbname, password, etc.
+At this point, being connected to the DS916+'s Postgresql server, we will create a new user and database. Be sure to substitute your own username, dbname, password, etc.
 
 ````sql
 postgres=# -- create a new user (username and password same as shell login, in this case user="pbnelson")
